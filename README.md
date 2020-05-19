@@ -4,6 +4,6 @@ Liveness analysis is a program analysis mechanism - data flow analysis. Checks f
 This is an out of tree pass - no fancy RAM specs required!
 
 How to run:
-1.one needs to install llvm library
-2.change the path of llvm library in test and Cmake files
+1. one needs to install llvm library
+2. change the path of llvm library in test and Cmake files
 3. run test file
