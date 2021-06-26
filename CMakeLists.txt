@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.4)
 
 # we need LLVM_HOME in order not automatically set LLVM_DIR
-SET(CMAKE_C_COMPILER /usr/lib/llvm-9/bin/clang-9)
-SET(CMAKE_CXX_COMPILER /usr/lib/llvm-9/bin/clang++)
+SET(CMAKE_C_COMPILER /usr/lib/llvm-10/bin/clang-10)
+SET(CMAKE_CXX_COMPILER /usr/lib/llvm-10/bin/clang++)
 if(NOT DEFINED ENV{LLVM_HOME})
     message(FATAL_ERROR "$LLVM_HOME is not defined")
 else ()

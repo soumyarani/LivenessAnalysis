@@ -1,0 +1,1 @@
+/usr/lib/llvm-10/bin/clang++ -fPIC   -shared  -o libprerona.so CMakeFiles/prerona.dir/liveness.cpp.o  -L/usr/lib/llvm-10/lib 
