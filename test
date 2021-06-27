@@ -3,14 +3,14 @@
 #set -x
 export LLVM_HOME=usr/lib/llvm-10
 clang++ -S -emit-llvm preronaTest/test7.cpp #generates LLVM-IR in a text file (.ll)
-opt-10 -S -instnamer test.ll -o test.ll
+/usr/lib/llvm-10/bin/opt -S -instnamer test.ll -o test.ll
 mkdir -p _build
 pushd _build
 cmake ..
 make
 popd
 clang++ -S -emit-llvm preronaTest/test7.cpp -o test.bc
-opt-10 -instnamer -load _build/*/*prerona* -liveness test.bc > /dev/null
+/usr/lib/llvm-10/bin/opt -instnamer -load _build/*/*prerona* -liveness test.bc > /dev/null
 #~/llvm-toolchain-8_8~svn353031/build-llvm/bin/opt -debug -instnamer -load _build/*/*SLVA* -slva test.bc > /dev/null
 #rm -rf _build test.bc
 
