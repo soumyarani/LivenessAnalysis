@@ -122,5 +122,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/intrinsics_gen.dir/DependInfo.cmake"
-  "livenessPass/CMakeFiles/prerona.dir/DependInfo.cmake"
+  "livenessPass/CMakeFiles/sample.dir/DependInfo.cmake"
   )

@@ -191,7 +191,7 @@ Project_BINARY_DIR:STATIC=/home1/soumyars/compilers/Liveness/_build
 Project_SOURCE_DIR:STATIC=/home1/soumyars/compilers/Liveness
 
 //Dependencies for target
-prerona_LIB_DEPENDS:STATIC=
+sample_LIB_DEPENDS:STATIC=
 
 
 ########################

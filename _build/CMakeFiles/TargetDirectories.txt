@@ -2,5 +2,5 @@
 /home1/soumyars/compilers/Liveness/_build/CMakeFiles/intrinsics_gen.dir
 /home1/soumyars/compilers/Liveness/_build/CMakeFiles/edit_cache.dir
 /home1/soumyars/compilers/Liveness/_build/livenessPass/CMakeFiles/rebuild_cache.dir
-/home1/soumyars/compilers/Liveness/_build/livenessPass/CMakeFiles/prerona.dir
+/home1/soumyars/compilers/Liveness/_build/livenessPass/CMakeFiles/sample.dir
 /home1/soumyars/compilers/Liveness/_build/livenessPass/CMakeFiles/edit_cache.dir

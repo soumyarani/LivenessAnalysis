@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /home1/soumyars/compilers/Liveness
 CMAKE_BINARY_DIR = /home1/soumyars/compilers/Liveness/_build
 
 # Include any dependencies generated for this target.
-include livenessPass/CMakeFiles/prerona.dir/depend.make
+include livenessPass/CMakeFiles/sample.dir/depend.make
 
 # Include the progress variables for this target.
-include livenessPass/CMakeFiles/prerona.dir/progress.make
+include livenessPass/CMakeFiles/sample.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include livenessPass/CMakeFiles/prerona.dir/flags.make
+include livenessPass/CMakeFiles/sample.dir/flags.make
 
-livenessPass/CMakeFiles/prerona.dir/liveness.cpp.o: livenessPass/CMakeFiles/prerona.dir/flags.make
-livenessPass/CMakeFiles/prerona.dir/liveness.cpp.o: ../livenessPass/liveness.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home1/soumyars/compilers/Liveness/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object livenessPass/CMakeFiles/prerona.dir/liveness.cpp.o"
-	cd /home1/soumyars/compilers/Liveness/_build/livenessPass && /usr/lib/llvm-10/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prerona.dir/liveness.cpp.o -c /home1/soumyars/compilers/Liveness/livenessPass/liveness.cpp
+livenessPass/CMakeFiles/sample.dir/liveness.cpp.o: livenessPass/CMakeFiles/sample.dir/flags.make
+livenessPass/CMakeFiles/sample.dir/liveness.cpp.o: ../livenessPass/liveness.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home1/soumyars/compilers/Liveness/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object livenessPass/CMakeFiles/sample.dir/liveness.cpp.o"
+	cd /home1/soumyars/compilers/Liveness/_build/livenessPass && /usr/lib/llvm-10/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample.dir/liveness.cpp.o -c /home1/soumyars/compilers/Liveness/livenessPass/liveness.cpp
 
-livenessPass/CMakeFiles/prerona.dir/liveness.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prerona.dir/liveness.cpp.i"
-	cd /home1/soumyars/compilers/Liveness/_build/livenessPass && /usr/lib/llvm-10/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home1/soumyars/compilers/Liveness/livenessPass/liveness.cpp > CMakeFiles/prerona.dir/liveness.cpp.i
+livenessPass/CMakeFiles/sample.dir/liveness.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample.dir/liveness.cpp.i"
+	cd /home1/soumyars/compilers/Liveness/_build/livenessPass && /usr/lib/llvm-10/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home1/soumyars/compilers/Liveness/livenessPass/liveness.cpp > CMakeFiles/sample.dir/liveness.cpp.i
 
-livenessPass/CMakeFiles/prerona.dir/liveness.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prerona.dir/liveness.cpp.s"
-	cd /home1/soumyars/compilers/Liveness/_build/livenessPass && /usr/lib/llvm-10/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home1/soumyars/compilers/Liveness/livenessPass/liveness.cpp -o CMakeFiles/prerona.dir/liveness.cpp.s
+livenessPass/CMakeFiles/sample.dir/liveness.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample.dir/liveness.cpp.s"
+	cd /home1/soumyars/compilers/Liveness/_build/livenessPass && /usr/lib/llvm-10/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home1/soumyars/compilers/Liveness/livenessPass/liveness.cpp -o CMakeFiles/sample.dir/liveness.cpp.s
 
-livenessPass/CMakeFiles/prerona.dir/liveness.cpp.o.requires:
+livenessPass/CMakeFiles/sample.dir/liveness.cpp.o.requires:
 
-.PHONY : livenessPass/CMakeFiles/prerona.dir/liveness.cpp.o.requires
+.PHONY : livenessPass/CMakeFiles/sample.dir/liveness.cpp.o.requires
 
-livenessPass/CMakeFiles/prerona.dir/liveness.cpp.o.provides: livenessPass/CMakeFiles/prerona.dir/liveness.cpp.o.requires
-	$(MAKE) -f livenessPass/CMakeFiles/prerona.dir/build.make livenessPass/CMakeFiles/prerona.dir/liveness.cpp.o.provides.build
-.PHONY : livenessPass/CMakeFiles/prerona.dir/liveness.cpp.o.provides
+livenessPass/CMakeFiles/sample.dir/liveness.cpp.o.provides: livenessPass/CMakeFiles/sample.dir/liveness.cpp.o.requires
+	$(MAKE) -f livenessPass/CMakeFiles/sample.dir/build.make livenessPass/CMakeFiles/sample.dir/liveness.cpp.o.provides.build
+.PHONY : livenessPass/CMakeFiles/sample.dir/liveness.cpp.o.provides
 
-livenessPass/CMakeFiles/prerona.dir/liveness.cpp.o.provides.build: livenessPass/CMakeFiles/prerona.dir/liveness.cpp.o
+livenessPass/CMakeFiles/sample.dir/liveness.cpp.o.provides.build: livenessPass/CMakeFiles/sample.dir/liveness.cpp.o
 
 
-# Object files for target prerona
-prerona_OBJECTS = \
-"CMakeFiles/prerona.dir/liveness.cpp.o"
+# Object files for target sample
+sample_OBJECTS = \
+"CMakeFiles/sample.dir/liveness.cpp.o"
 
-# External object files for target prerona
-prerona_EXTERNAL_OBJECTS =
+# External object files for target sample
+sample_EXTERNAL_OBJECTS =
 
-livenessPass/libprerona.so: livenessPass/CMakeFiles/prerona.dir/liveness.cpp.o
-livenessPass/libprerona.so: livenessPass/CMakeFiles/prerona.dir/build.make
-livenessPass/libprerona.so: livenessPass/CMakeFiles/prerona.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home1/soumyars/compilers/Liveness/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared module libprerona.so"
-	cd /home1/soumyars/compilers/Liveness/_build/livenessPass && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/prerona.dir/link.txt --verbose=$(VERBOSE)
+livenessPass/libsample.so: livenessPass/CMakeFiles/sample.dir/liveness.cpp.o
+livenessPass/libsample.so: livenessPass/CMakeFiles/sample.dir/build.make
+livenessPass/libsample.so: livenessPass/CMakeFiles/sample.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home1/soumyars/compilers/Liveness/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared module libsample.so"
+	cd /home1/soumyars/compilers/Liveness/_build/livenessPass && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sample.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-livenessPass/CMakeFiles/prerona.dir/build: livenessPass/libprerona.so
+livenessPass/CMakeFiles/sample.dir/build: livenessPass/libsample.so
 
-.PHONY : livenessPass/CMakeFiles/prerona.dir/build
+.PHONY : livenessPass/CMakeFiles/sample.dir/build
 
-livenessPass/CMakeFiles/prerona.dir/requires: livenessPass/CMakeFiles/prerona.dir/liveness.cpp.o.requires
+livenessPass/CMakeFiles/sample.dir/requires: livenessPass/CMakeFiles/sample.dir/liveness.cpp.o.requires
 
-.PHONY : livenessPass/CMakeFiles/prerona.dir/requires
+.PHONY : livenessPass/CMakeFiles/sample.dir/requires
 
-livenessPass/CMakeFiles/prerona.dir/clean:
-	cd /home1/soumyars/compilers/Liveness/_build/livenessPass && $(CMAKE_COMMAND) -P CMakeFiles/prerona.dir/cmake_clean.cmake
-.PHONY : livenessPass/CMakeFiles/prerona.dir/clean
+livenessPass/CMakeFiles/sample.dir/clean:
+	cd /home1/soumyars/compilers/Liveness/_build/livenessPass && $(CMAKE_COMMAND) -P CMakeFiles/sample.dir/cmake_clean.cmake
+.PHONY : livenessPass/CMakeFiles/sample.dir/clean
 
-livenessPass/CMakeFiles/prerona.dir/depend:
-	cd /home1/soumyars/compilers/Liveness/_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home1/soumyars/compilers/Liveness /home1/soumyars/compilers/Liveness/livenessPass /home1/soumyars/compilers/Liveness/_build /home1/soumyars/compilers/Liveness/_build/livenessPass /home1/soumyars/compilers/Liveness/_build/livenessPass/CMakeFiles/prerona.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : livenessPass/CMakeFiles/prerona.dir/depend
+livenessPass/CMakeFiles/sample.dir/depend:
+	cd /home1/soumyars/compilers/Liveness/_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home1/soumyars/compilers/Liveness /home1/soumyars/compilers/Liveness/livenessPass /home1/soumyars/compilers/Liveness/_build /home1/soumyars/compilers/Liveness/_build/livenessPass /home1/soumyars/compilers/Liveness/_build/livenessPass/CMakeFiles/sample.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : livenessPass/CMakeFiles/sample.dir/depend
 

@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-livenessPass/CMakeFiles/prerona.dir/rule:
-	cd /home1/soumyars/compilers/Liveness/_build && $(MAKE) -f CMakeFiles/Makefile2 livenessPass/CMakeFiles/prerona.dir/rule
-.PHONY : livenessPass/CMakeFiles/prerona.dir/rule
+livenessPass/CMakeFiles/sample.dir/rule:
+	cd /home1/soumyars/compilers/Liveness/_build && $(MAKE) -f CMakeFiles/Makefile2 livenessPass/CMakeFiles/sample.dir/rule
+.PHONY : livenessPass/CMakeFiles/sample.dir/rule
 
 # Convenience name for target.
-prerona: livenessPass/CMakeFiles/prerona.dir/rule
+sample: livenessPass/CMakeFiles/sample.dir/rule
 
-.PHONY : prerona
+.PHONY : sample
 
 # fast build rule for target.
-prerona/fast:
-	cd /home1/soumyars/compilers/Liveness/_build && $(MAKE) -f livenessPass/CMakeFiles/prerona.dir/build.make livenessPass/CMakeFiles/prerona.dir/build
-.PHONY : prerona/fast
+sample/fast:
+	cd /home1/soumyars/compilers/Liveness/_build && $(MAKE) -f livenessPass/CMakeFiles/sample.dir/build.make livenessPass/CMakeFiles/sample.dir/build
+.PHONY : sample/fast
 
 liveness.o: liveness.cpp.o
 
@@ -131,7 +131,7 @@ liveness.o: liveness.cpp.o
 
 # target to build an object file
 liveness.cpp.o:
-	cd /home1/soumyars/compilers/Liveness/_build && $(MAKE) -f livenessPass/CMakeFiles/prerona.dir/build.make livenessPass/CMakeFiles/prerona.dir/liveness.cpp.o
+	cd /home1/soumyars/compilers/Liveness/_build && $(MAKE) -f livenessPass/CMakeFiles/sample.dir/build.make livenessPass/CMakeFiles/sample.dir/liveness.cpp.o
 .PHONY : liveness.cpp.o
 
 liveness.i: liveness.cpp.i
@@ -140,7 +140,7 @@ liveness.i: liveness.cpp.i
 
 # target to preprocess a source file
 liveness.cpp.i:
-	cd /home1/soumyars/compilers/Liveness/_build && $(MAKE) -f livenessPass/CMakeFiles/prerona.dir/build.make livenessPass/CMakeFiles/prerona.dir/liveness.cpp.i
+	cd /home1/soumyars/compilers/Liveness/_build && $(MAKE) -f livenessPass/CMakeFiles/sample.dir/build.make livenessPass/CMakeFiles/sample.dir/liveness.cpp.i
 .PHONY : liveness.cpp.i
 
 liveness.s: liveness.cpp.s
@@ -149,7 +149,7 @@ liveness.s: liveness.cpp.s
 
 # target to generate assembly for a file
 liveness.cpp.s:
-	cd /home1/soumyars/compilers/Liveness/_build && $(MAKE) -f livenessPass/CMakeFiles/prerona.dir/build.make livenessPass/CMakeFiles/prerona.dir/liveness.cpp.s
+	cd /home1/soumyars/compilers/Liveness/_build && $(MAKE) -f livenessPass/CMakeFiles/sample.dir/build.make livenessPass/CMakeFiles/sample.dir/liveness.cpp.s
 .PHONY : liveness.cpp.s
 
 # Help Target
@@ -159,7 +159,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... prerona"
+	@echo "... sample"
 	@echo "... edit_cache"
 	@echo "... liveness.o"
 	@echo "... liveness.i"

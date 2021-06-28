@@ -124,17 +124,17 @@ intrinsics_gen/fast:
 .PHONY : intrinsics_gen/fast
 
 #=============================================================================
-# Target rules for targets named prerona
+# Target rules for targets named sample
 
 # Build rule for target.
-prerona: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 prerona
-.PHONY : prerona
+sample: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sample
+.PHONY : sample
 
 # fast build rule for target.
-prerona/fast:
-	$(MAKE) -f livenessPass/CMakeFiles/prerona.dir/build.make livenessPass/CMakeFiles/prerona.dir/build
-.PHONY : prerona/fast
+sample/fast:
+	$(MAKE) -f livenessPass/CMakeFiles/sample.dir/build.make livenessPass/CMakeFiles/sample.dir/build
+.PHONY : sample/fast
 
 # Help Target
 help:
@@ -145,7 +145,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... intrinsics_gen"
 	@echo "... edit_cache"
-	@echo "... prerona"
+	@echo "... sample"
 .PHONY : help
 
 
